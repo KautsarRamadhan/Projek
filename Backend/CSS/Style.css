@@ -1,0 +1,156 @@
+body {
+    background: whitesmoke;
+    background: linear-gradient(135deg, #71b7e6, rgba(218, 165, 32));
+    
+  }
+
+.body {
+  padding: 0 5%;
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(218, 165, 32);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color: white;
+  }
+  
+  .active {
+    background-color: #111;
+    color: white;
+  }
+
+  .swiper {
+    width: 80%;
+    height: 80%;
+    background-attachment: fixed;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: whitesmoke;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  div.gallery {
+    float: left;
+        border: 1px solid black;
+        margin: 64px;
+        width: 320px;
+        background-color: black;
+        border-radius: 4px;
+        color: white;
+  }
+
+  div.card {
+    padding-top: 35%;
+    padding-bottom: 35% ;
+  }
+
+  div.card2 {
+    padding-top: 5%;
+    padding-bottom: 5% ;
+    letter-spacing: 2px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  p.line {
+    background-color: black;
+  }
+
+  .Title {
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 4px;
+    width: 100%;
+    padding: 1px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgba(218, 165, 32);
+    color: black;
+    padding: 20px;
+    margin-top: auto;
+    column-count: 1;
+    column-gap: 40px;
+    column-rule: 1px solid black;
+    width: auto;
+}
+
+
+body { font-family: arial; font-size: 14px; }
+            
+.liveExample { padding: 1em; background-color: #EEEEDD; border: 1px solid #CCC; max-width: 972px; margin:0 auto; padding: 20px }
+.liveExample input { font-family: Arial; }
+ 
+            #hh1{ width:400px; margin: 20px auto}
+            .space1{ padding: 0 1px;
+            } 
+                .space2{ margin: 0 122px;}
+                .space3{ margin-left:-10px;}
+                .space4{ margin-left: 30px;}
+               .space5{ margin-left: 135px;}
+                .space6{ margin-left: 115px;}

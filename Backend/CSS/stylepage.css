@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: whitesmoke;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(218, 165, 32);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border-radius: 0 0 10px 10px;
+    font-size: 18px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .active {
+    background-color: black;
+    color: white;
+  }
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card  {
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 3%;
+    text-align: justify;
+    font-size: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 30px 0;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: rgba(218, 165, 32);
+    color: black;
+    padding: 20px;
+    margin-top: auto;
+    column-count: 1;
+    column-gap: 40px;
+    column-rule: 1px solid black;
+    width: auto;
+    margin: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 8px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 5px;
+    float: right;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px 0 10px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.eresponsive {
+    padding: 5px;
+    float: left;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px 10px 10px 0;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .responsive:hover .dropdown-content {
+    display: block;
+  }
+  .eresponsive:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.container {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.container h2 {
+    padding: 0px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 97%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+p.content {
+        word-spacing: 2px;
+}
+
+
+#slide1 {
+    float: right;
+}
+
+#crusades3 {
+    padding: 15px;
+}
+
+#pistol {
+    padding: 8px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1.HTW {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: rgba(218, 165, 32);
+    color: white;
+}
+
+
+
